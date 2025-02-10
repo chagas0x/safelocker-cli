@@ -48,5 +48,8 @@ go build sf
 ```
 ./sf decrypt
 ```
-## Isenção de Responsabilidade
+## Disclaimer
 O software SafeLocker é um software no modelo CLI desenvolvido na linguagem Golang. Ele é fornecido no estado atual, sem qualquer garantia expressa ou implícita de qualquer tipo.
+
+## Author
+Guilherme aka 0xc9e2
