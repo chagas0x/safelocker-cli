@@ -11,9 +11,9 @@ O software foi desenvolvido em ambiente Linux, mais precisamente na distribuiç�
 ### Database
 ```
 CREATE DATABASE sf;
-USE DATABASE sf;
+USE sf;
 CREATE TABLE `sf` (   `id` int(6) unsigned NOT NULL AUTO_INCREMENT,   `userName` varchar(100) NOT NULL,   `passEncrypted` varchar(300) NOT NULL, `randomKey` varchar(300) NOT NULL ,`dateEncrypted` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,  PRIMARY KEY (`id`) ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
-DESC table sf;
+DESC sf;
 ```
 
 ### Clone do repositório:
